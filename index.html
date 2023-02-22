@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Fashion Ninja</title>
+  </head>
+  <body id="homePage">
+    <nav>
+      <a href="index.html">
+        <img src="/Images/fashionninja.svg" alt="" />
+      </a>
+      <ul id="pages">
+        <i id="close" class="fa-solid fa-close"> </i>
+        <li class="links"><a href="categories.html">Categories</a></li>
+        <li class="links"><a href="newArrival.html">What's New</a></li>
+        <li class="links"><a href="mens.html">Men</a></li>
+        <li class="links"><a href="women.html">Women</a></li>
+        <li class="links"><a href="kids.html">Kids</a></li>
+      </ul>
+
+      <div class="buttons">
+        <div class="search">
+          <input class="input" type="text" />
+          <i id="search" class="fa-solid fa-search"> </i>
+        </div>
+        <a href="cart.html">
+          <i id="cart" class="fa-solid fa-shopping-bag"> </i>
+        </a>
+        <i id="hamMenu" class="fa-solid fa-bars"> </i>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <span id="leftSlide" class="material-symbols-outlined">
+        chevron_left
+      </span>
+      <span id="rightSlide" class="material-symbols-outlined">
+        chevron_right
+      </span>
+    </section>
+
+    <section class="services">
+      <div class="card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/7757/7757122.png"
+          style="
+            filter: invert(79%) sepia(12%) saturate(6619%) hue-rotate(193deg)
+              brightness(99%) contrast(91%);
+          "
+        /><span style="background-color: rgb(158, 169, 240)">Best Quality</span>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/4947/4947265.png"
+          style="
+            filter: invert(99%) sepia(80%) saturate(1157%) hue-rotate(292deg)
+              brightness(92%) contrast(108%);
+          "
+        /><span style="background-color: rgb(244, 187, 187)"
+          >Free Shipping</span
+        >
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/879/879757.png"
+          style="
+            filter: invert(74%) sepia(33%) saturate(869%) hue-rotate(212deg)
+              brightness(87%) contrast(86%);
+          "
+        /><span style="background-color: rgb(186, 148, 209)">Discount</span>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3687/3687674.png"
+          style="
+            filter: invert(93%) sepia(2%) saturate(6031%) hue-rotate(65deg)
+              brightness(95%) contrast(83%);
+          "
+        /><span style="background-color: rgb(176, 224, 168)">24/7 Support</span>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2878/2878556.png"
+          style="
+            filter: invert(95%) sepia(5%) saturate(2726%) hue-rotate(169deg)
+              brightness(94%) contrast(86%);
+          "
+        /><span style="background-color: rgb(183, 211, 223)">Promotion</span>
+      </div>
+    </section>
+
+    <section class="newArrivals">
+      <h1>New Arrivals</h1>
+      <p id="tagline">Best Master Pieces Of this Season</p>
+      <div class="cardsEl"></div>
+    </section>
+
+    <section class="brandsBanner">
+      <p>Our Brands and Partners</p>
+      <div class="brands"></div>
+      <button>Explore</button>
+    </section>
+
+    <section class="featured">
+      <h1>Featured</h1>
+      <p id="tagLine">Awesome and Trending collection of this seasons!</p>
+      <div class="cardsElem"></div>
+    </section>
+
+    <div class="newsLetter">
+      <div class="text">
+        <h1>Subscribe for Newsletter</h1>
+        <p>
+          Get updated with our New Arrivals, News, Trends, Exclusive Discounts,
+          Coupons and Gits.
+        </p>
+      </div>
+      <div class="email">
+        <input id="email" type="email" placeholder="Your Email:" />
+        <button id="subscribe" type="submit">Subscribe</button>
+      </div>
+      <div class="update">Please enter you email</div>
+    </div>
+
+    <div class="categories">
+      <h1>Categries</h1>
+      <p id="tagLines">Shop by Categories</p>
+      <div class="ctgCard"></div>
+    </div>
+
+    <footer>
+      <div class="address">
+        <img src="./Images/fashionninja.svg" alt="fnlogo" />
+        <ul class="about">
+          <li>
+            <i class="fa-solid fa-location-dot"> </i>
+            <span> 24 North Street, Huston, NY </span>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"> </i>
+            <span>+91 90000 00000</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"> </i>
+            <span>fashionninja@gmail.com</span>
+          </li>
+        </ul>
+        <div class="social">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="about">
+        <h3>About</h3>
+        <span>About Us</span>
+        <span>Contact Us</span>
+        <span>Delivery Info.</span>
+        <span>Refund Policy</span>
+        <span>Privacy Policy</span>
+        <span>Terms &amp; Cond.</span>
+      </div>
+
+      <div class="account">
+        <h3>Account</h3>
+        <span>Sign Up</span>
+        <span>View Cart</span>
+        <span>Track Order</span>
+        <span>My Wishlist</span>
+        <span>Help &amp; Support</span>
+      </div>
+
+      <div class="promos">
+        <div class="download">
+          <h3>Download Our App</h3>
+          <div class="img">
+            <img
+              src="https://fashionninja.netlify.app/images/app-store-png-logo-33115.png"
+              alt=""
+            />
+            <img
+              src="https://fashionninja.netlify.app/images/googleplay.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="payment">
+          <span>Secure Payment Gateways</span>
+          <img
+            id="payment"
+            src="https://fashionninja.netlify.app/images/NicePng_tarjetas-png_4274726.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+    <section class="copyright">
+      &copy; 2022, Robbins Neupane, Fashion Ninja
+    </section>
+  </body>
+
+  <script src="main.js" type="module"></script>
+</html>
